@@ -1,5 +1,0 @@
-package actividadclase;
-
-public interface Observador {
-	public void actualizar(String mensaje);
-}

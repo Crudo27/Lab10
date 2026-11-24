@@ -1,22 +1,27 @@
-# Laboratorio 10 — Lenguajes de Programación III
+# Laboratorio 10 - Lenguajes de Programacion III
 
-Aplicación Java de carrito de compras que combina Observer, Strategy y Command con una separación MVC (Carrito y Producto: modelo; Vista: interfaz de consola; Controlador: lógica de interacción).
+**Tema:** Java Swing avanzado: binding manual con PropertyChangeSupport, gráficos Graphics2D, audio WAV y aplicación MVC con almacenamiento JDBC.
 
-## Ejecución
+## Requisitos
 
-Requiere JDK 17 o superior. El proyecto se puede importar en Eclipse como proyecto Java usando `src` como carpeta de fuentes. Ejecutar `lab10.Main`.
+- JDK 17 o superior.
+- Driver JDBC HSQLDB 1.8 o posterior. La dependencia se define en `pom.xml` para importarla en Eclipse como proyecto Maven.
+
+## Clases que se ejecutan desde Eclipse
+
+- `lab10.Principal`: selector de todas las aplicaciones.
+- `lab10.actividades.FormularioProducto`: binding bidireccional mediante formulario y eventos del modelo.
+- `lab10.actividades.GraficoTemperaturas`: gráfico de líneas para siete días y lectura interactiva.
+- `lab10.actividades.EfectosSonido`: tres efectos WAV con `Clip`.
+- `lab10.actividades.ReproductorMusica`: reproducir, pausar y reanudar audio WAV.
+- `lab10.mvc.InventarioApp`: aplicación MVC con base de datos local JDBC HSQLDB y operaciones CRUD.
+
+## Compilacion y pruebas (instalacion Debian con HSQLDB)
 
 ```sh
-javac -encoding UTF-8 -d out src/lab10/*.java tests/lab10/Pruebas.java
-java -cp out lab10.Main
-java -cp out lab10.Pruebas
+javac -cp /usr/share/java/hsqldb1.8.0.jar -encoding UTF-8 -d out $(find src tests -name '*.java')
+java -cp out:/usr/share/java/hsqldb1.8.0.jar lab10.Pruebas
+java -cp out:/usr/share/java/hsqldb1.8.0.jar lab10.Principal
 ```
 
-## Funcionalidades
-
-- Agregar, eliminar y vaciar productos mediante comandos; deshacer la última operación.
-- Cambiar descuentos sin alterar el modelo: 0 %, 10 %, 30 % desde la segunda unidad idéntica o 50 % al producto más barato si hay al menos tres.
-- Suscribir y desuscribir al cliente y administrador de notificaciones.
-- Calcular totales con `BigDecimal` y precisión decimal.
-
-`evidencias/` almacena salidas de verificación reproducibles y recursos del informe. Las pruebas se ejecutan sin librerías externas.
+La aplicación genera sus propios datos WAV, de manera que no necesita recursos externos. El módulo JDBC usa `datos/inventario` como ubicación del almacén persistente local. El directorio `datos/` está excluido de Git.

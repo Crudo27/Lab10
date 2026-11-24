@@ -1,6 +1,6 @@
-/out/
-/bin/
-/.settings/
-.classpath
-.project
+out/
+target/
 *.class
+datos/
+.settings/
+.metadata/
