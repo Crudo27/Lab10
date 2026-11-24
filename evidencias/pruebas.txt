@@ -1,0 +1,16 @@
+OK - Tres productos agregados
+OK - Subtotal S/ 140.00
+OK - Observer notifica altas
+OK - Sin descuento
+OK - Descuento 10 por ciento
+OK - Segunda unidad igual con 30 por ciento
+OK - Tres productos: mitad del mas barato
+OK - Eliminar por posicion
+OK - Command deshace eliminacion
+OK - Producto restaurado
+OK - Vaciar carrito
+OK - Command deshace vaciado
+OK - Contenido restaurado
+OK - Observer deja de recibir eventos
+OK - El modelo conserva los productos
+Pruebas completadas: 15 / 15
