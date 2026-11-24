@@ -1,0 +1,95 @@
+
+===== CARRITO DE COMPRAS =====
+1. Agregar producto
+2. Eliminar producto
+3. Vaciar carrito
+4. Mostrar carrito
+5. Cambiar descuento
+6. Calcular total
+7. Activar o desactivar notificaciones
+8. Deshacer ultima operacion
+0. Salir
+Opcion: Codigo: Nombre: Precio: Cliente: Producto agregado: Cuaderno
+Administrador: Producto agregado: Cuaderno
+
+===== CARRITO DE COMPRAS =====
+1. Agregar producto
+2. Eliminar producto
+3. Vaciar carrito
+4. Mostrar carrito
+5. Cambiar descuento
+6. Calcular total
+7. Activar o desactivar notificaciones
+8. Deshacer ultima operacion
+0. Salir
+Opcion: Codigo: Nombre: Precio: Cliente: Producto agregado: Cuaderno
+Administrador: Producto agregado: Cuaderno
+
+===== CARRITO DE COMPRAS =====
+1. Agregar producto
+2. Eliminar producto
+3. Vaciar carrito
+4. Mostrar carrito
+5. Cambiar descuento
+6. Calcular total
+7. Activar o desactivar notificaciones
+8. Deshacer ultima operacion
+0. Salir
+Opcion: Codigo: Nombre: Precio: Cliente: Producto agregado: Lapiz
+Administrador: Producto agregado: Lapiz
+
+===== CARRITO DE COMPRAS =====
+1. Agregar producto
+2. Eliminar producto
+3. Vaciar carrito
+4. Mostrar carrito
+5. Cambiar descuento
+6. Calcular total
+7. Activar o desactivar notificaciones
+8. Deshacer ultima operacion
+0. Salir
+Opcion: 1. Cuaderno - S/ 50
+2. Cuaderno - S/ 50
+3. Lapiz - S/ 40
+Subtotal: S/ 140
+Descuento activo: Sin descuento
+
+===== CARRITO DE COMPRAS =====
+1. Agregar producto
+2. Eliminar producto
+3. Vaciar carrito
+4. Mostrar carrito
+5. Cambiar descuento
+6. Calcular total
+7. Activar o desactivar notificaciones
+8. Deshacer ultima operacion
+0. Salir
+Opcion: 1. Sin descuento | 2. 10 % | 3. 30 % repetidos | 4. 50 % al mas barato
+Estrategia: Cliente: Estrategia de descuento: 30 % desde la segunda unidad igual
+Administrador: Estrategia de descuento: 30 % desde la segunda unidad igual
+
+===== CARRITO DE COMPRAS =====
+1. Agregar producto
+2. Eliminar producto
+3. Vaciar carrito
+4. Mostrar carrito
+5. Cambiar descuento
+6. Calcular total
+7. Activar o desactivar notificaciones
+8. Deshacer ultima operacion
+0. Salir
+Opcion: Cliente: Total calculado: S/ 125.00
+Administrador: Total calculado: S/ 125.00
+TOTAL: S/ 125.00
+
+===== CARRITO DE COMPRAS =====
+1. Agregar producto
+2. Eliminar producto
+3. Vaciar carrito
+4. Mostrar carrito
+5. Cambiar descuento
+6. Calcular total
+7. Activar o desactivar notificaciones
+8. Deshacer ultima operacion
+0. Salir
+Opcion: Hasta luego.
